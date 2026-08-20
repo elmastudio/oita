@@ -1,0 +1,1014 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oita v1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-04 16:50+0100\n"
+"Last-Translator: kOoLiNuS <nicola@koolinus.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: it_IT\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ oita
+#: 404.php:14
+msgid "Not Found"
+msgstr "Non Trovato"
+
+# @ oita
+#: 404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+"Spiacente, ma la pagina che hai richiesto non è stato possibile trovarla. "
+"Probabilmente una ricerca potrà aiutarti."
+
+# @ oita
+#: archive.php:19
+#, php-format
+msgid "Posts in Category <strong>&lsquo;%s&rsquo;</strong>"
+msgstr "Articoli nella Categoria <strong>&lsquo;%s&rsquo;</strong>"
+
+# @ oita
+#: archive.php:22
+#, php-format
+msgid "Posts Tagged <strong>&lsquo;%s&rsquo;</strong>"
+msgstr "Articoli con Tag <strong>&lsquo;%s&rsquo;</strong>"
+
+# @ oita
+#: archive.php:26
+#, php-format
+msgid "All Posts by <strong>%s</strong>"
+msgstr "Tutti gli articoli di <strong>%s</strong>"
+
+# @ oita
+#: archive.php:30
+#, php-format
+msgid "Daily Archives of <strong>%s</strong>"
+msgstr "Archivi Giornalieri di <strong>%s</strong>"
+
+# @ oita
+#: archive.php:33
+#, php-format
+msgid "Monthly Archives of <strong>%s</strong>"
+msgstr "Archivi Mensili per <strong>%s</strong>"
+
+# @ oita
+#: archive.php:36
+#, php-format
+msgid "Yearly Archives of <strong>%s</strong>"
+msgstr "Archivi Annuali del <strong>%s</strong>"
+
+# @ oita
+#: archive.php:39
+msgid "Archives"
+msgstr "Archivi"
+
+# @ oita
+#: archive.php:79 search.php:34
+msgid "Nothing Found"
+msgstr "Nessun Risultato"
+
+# @ oita
+#: archive.php:82
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembra che non possiamo trovare quanto richiesto. Probabilmente una ricerca "
+"potrà aiutare."
+
+# @ oita
+#: colophon.php:26
+msgid "Powered by"
+msgstr ""
+
+# @ oita
+#: colophon.php:26
+msgid "http://wordpress.org/"
+msgstr ""
+
+# @ oita
+#: colophon.php:26
+msgid "Semantic Personal Publishing Platform"
+msgstr "Piattaforma Semantica di Pubblicazione Personale"
+
+# @ oita
+#: colophon.php:26
+msgid "WordPress"
+msgstr ""
+
+# @ oita
+#: colophon.php:27
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s di %2$s."
+
+# @ oita
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Questo articolo è protetto da password. Inserendola potrai visualizzarne il "
+"conenuto ed i commenti."
+
+# @ oita
+#: comments.php:29
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Commento"
+msgstr[1] "%1$s Commenti"
+
+# @ oita
+#: comments.php:33
+msgid "Write a comment"
+msgstr "Lascia un commento"
+
+# @ oita
+#: comments.php:51
+msgid " &larr;  Older Comments"
+msgstr " &larr;  Commenti Precendenti"
+
+# @ oita
+#: comments.php:52
+msgid "Newer Comments  &rarr; "
+msgstr "Commenti Successivi  &rarr; "
+
+# @ oita
+#: comments.php:62
+msgid "Comments are closed."
+msgstr "I commenti sono disabilitati."
+
+# @ oita
+#: comments.php:67
+msgid "<h3 id=\"reply-title\">Leave a Comment</h3>"
+msgstr "<h3 id=\"reply-title\">Lascia un Commento</h3>"
+
+# @ oita
+#: comments.php:68
+msgid ""
+"<p class=\"comment-note\">Required fields are marked <span class=\"required"
+"\">*</span>.</p>"
+msgstr ""
+"<p class=\"comment-note\">I campi contrassegnati con <span class=\"required"
+"\">*</span> sono obbligatori.</p>"
+
+# @ oita
+#: comments.php:70
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr "Il tuo commento <span class=\"required\">*</span>"
+
+# @ oita
+#: comments.php:71
+msgid "Send Comment"
+msgstr "Invia Commento"
+
+# @ oita
+#: content-aside.php:16
+msgid "Featured Note"
+msgstr "Nota in Evidenza"
+
+# @ oita
+#: content-aside.php:18
+msgid "Aside"
+msgstr "Digressione"
+
+# @ oita
+#: content-aside.php:20 content-gallery.php:20 content-image.php:20
+#: content-link.php:20 content-quote.php:20 content-status.php:20
+#: content-video.php:20 content.php:21
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+# @ oita
+#: content-aside.php:24 content-gallery.php:24 content-image.php:24
+#: content-link.php:24 content-quote.php:24 content-single.php:30
+#: content-status.php:24 content-video.php:24 content.php:33
+msgid "Permalink"
+msgstr "Permalink"
+
+# @ oita
+#: content-aside.php:30 content-gallery.php:30 content-image.php:30
+#: content-link.php:30 content-quote.php:30 content-single.php:42
+#: content-status.php:30 content-video.php:30 content.php:45 functions.php:167
+msgid "Read more"
+msgstr "Continua a leggere"
+
+# @ oita
+#: content-aside.php:36 content-gallery.php:36 content-image.php:36
+#: content-link.php:36 content-quote.php:36 content-status.php:36
+#: content-video.php:36 content.php:53
+msgid "Leave a Comment &rarr;"
+msgstr "Lascia un Commento &rarr;"
+
+# @ oita
+#: content-aside.php:36 content-gallery.php:36 content-image.php:36
+#: content-link.php:36 content-quote.php:36 content-status.php:36
+#: content-video.php:36 content.php:53
+msgid "<span class=\"comment-count\">1</span> Comment &rarr;"
+msgstr "<span class=\"comment-count\">1</span> Commento &rarr;"
+
+# @ oita
+#: content-aside.php:36 content-gallery.php:36 content-image.php:36
+#: content-link.php:36 content-quote.php:36 content-status.php:36
+#: content-video.php:36 content.php:53
+msgid "<span class=\"comment-count\">%</span> Comments &rarr;"
+msgstr "<span class=\"comment-count\">%</span> Commenti &rarr;"
+
+# @ oita
+#: content-aside.php:39 content-gallery.php:39 content-image.php:39
+#: content-link.php:39 content-quote.php:39 content-single.php:68
+#: content-status.php:39 content-video.php:39 content.php:56
+msgid "Filed under: "
+msgstr "Archiviato in: "
+
+# @ oita
+#: content-aside.php:41 content-gallery.php:41 content-image.php:41
+#: content-link.php:41 content-quote.php:41 content-single.php:74
+#: content-status.php:41 content-video.php:41 content.php:58 functions.php:231
+#: functions.php:252
+msgid "Edit &rarr;"
+msgstr "Modifica &rarr;"
+
+# @ oita
+#: content-gallery.php:16
+msgid "Featured Gallery"
+msgstr "Galleria in Evidenza"
+
+# @ oita
+#: content-gallery.php:18
+msgid "Gallery"
+msgstr "Galleria"
+
+# @ oita
+#: content-image.php:16
+msgid "Featured Image"
+msgstr "Imamgine in Evidenza"
+
+# @ oita
+#: content-image.php:18
+msgid "Image"
+msgstr "Immagine"
+
+# @ oita
+#: content-link.php:16
+msgid "Featured Link"
+msgstr "Link in Evidenza"
+
+# @ oita
+#: content-link.php:18
+msgid "Link"
+msgstr "Link"
+
+# @ oita
+#: content-quote.php:16
+msgid "Featured Quote"
+msgstr "Citazione in Evidenza"
+
+# @ oita
+#: content-quote.php:18
+msgid "Quote"
+msgstr "Citazione"
+
+# @ oita
+#: content-single.php:22 content.php:26
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>, "
+msgstr ""
+
+# @ oita
+#: content-single.php:24 content.php:28
+#, php-format
+msgid "All posts by %s"
+msgstr "Tutti i post di %s"
+
+# @ oita
+#: content-single.php:43 content.php:46
+msgid "Pages:"
+msgstr "Pagine:"
+
+# @ oita
+#: content-single.php:55
+msgid "Find me on: "
+msgstr "Seguimi su: "
+
+# @ oita
+#: content-single.php:72
+msgid "Tagged:"
+msgstr "Tag:"
+
+# @ oita
+#: content-status.php:16
+msgid "Featured Status"
+msgstr "Stato in Evidenza"
+
+# @ oita
+#: content-status.php:18
+msgid "Status"
+msgstr "Stato"
+
+# @ oita
+#: content-video.php:16
+msgid "Featured Video"
+msgstr "Video in Evidenza"
+
+# @ oita
+#: content-video.php:18
+msgid "Video"
+msgstr "Video"
+
+# @ oita
+#: content.php:17
+msgid "Featured"
+msgstr "In Evidenza"
+
+# @ oita
+#: content.php:19
+msgid "Article"
+msgstr "Articolo"
+
+# @ oita
+#: functions.php:52
+msgid "Primary Navigation"
+msgstr "Navigazione Principale"
+
+# @ oita
+#: functions.php:53
+msgid "Footer Navigation (no sub menus supported)"
+msgstr "Navigazione a Piè di Pagina (non sono supportati i sotto-menù)"
+
+# @ oita
+#: functions.php:122
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+# @ oita
+#: functions.php:223
+#, php-format
+msgid " %s "
+msgstr ""
+
+# @ oita
+#. translators: 1: date, 2: time
+#: functions.php:227
+#, php-format
+msgid "%1$s @ %2$s"
+msgstr ""
+
+# @ oita
+#: functions.php:236
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+# @ oita
+#: functions.php:238
+msgid "Reply"
+msgstr "Rispondi"
+
+# @ oita
+#: functions.php:251
+msgid "<span>Pingback:</span>"
+msgstr ""
+
+# @ oita
+#: functions.php:265
+msgid "Sidebar Right, Single Column"
+msgstr "Sidebar Destra, Colonna Singola"
+
+# @ oita
+#: functions.php:267
+msgid "Widgets will appear in the right sidebar."
+msgstr "I widget appariranno nella barra laterale destra."
+
+# @ oita
+#: functions.php:275
+msgid "Sidebar Right, Two-Columns Left"
+msgstr "Sidebar Destra, layout doppia colonna - sinistra"
+
+# @ oita
+#: functions.php:277
+msgid ""
+"Widgets will appear in the right sidebar in the left column of the two-"
+"column widget area."
+msgstr ""
+"I Widget appariranno nella sidebar destra, collocati nelle colonna sinistra "
+"del layout a doppia colonna."
+
+# @ oita
+#: functions.php:285
+msgid "Sidebar Right, Two-Columns Right"
+msgstr "Sidebar Destra, layout doppia colonna - destra"
+
+# @ oita
+#: functions.php:287
+msgid ""
+"Widgets will appear in the right sidebar in the right column of the two-"
+"column widget area."
+msgstr ""
+"I Widget appariranno nella sidebar destra, collocati nelle colonna destra "
+"del layout a doppia colonna."
+
+# @ oita
+#: functions.php:295
+msgid "Sidebar Left"
+msgstr "Sidebar a sinistra"
+
+# @ oita
+#: functions.php:297
+msgid "Widgets will appear in the left sidebar below the main navigation."
+msgstr ""
+"I Widget appariranno nella sidebar sinistra, sotto il menù di navigazione "
+"principale"
+
+# @ oita
+#: functions.php:318
+msgid "Older entries"
+msgstr "Articoli Precedenti"
+
+# @ oita
+#: functions.php:319
+msgid "Newer entries"
+msgstr "Articoli Successivi"
+
+# @ oita
+#: functions.php:607
+msgid "Oita Flickr"
+msgstr ""
+
+# @ oita
+#: functions.php:643 functions.php:730 functions.php:804 functions.php:1116
+msgid "Title:"
+msgstr "Titolo:"
+
+# @ oita
+#: functions.php:648
+msgid ""
+"Flickr ID (<a href=\"http://www.idgettr.com\" target=\"_blank\">idGettr</a>):"
+msgstr ""
+
+# @ oita
+#: functions.php:653
+msgid "Number of photos:"
+msgstr "Numero di fotografie:"
+
+# @ oita
+#: functions.php:662
+msgid "Choose user or group:"
+msgstr "Scegli l'utente o il gruppo:"
+
+# @ oita
+#: functions.php:664
+msgid "User"
+msgstr "Utente"
+
+# @ oita
+#: functions.php:665
+msgid "Group"
+msgstr "Gruppo"
+
+# @ oita
+#: functions.php:669
+msgid "Show latest or random pictures:"
+msgstr "Mostra le immagini più recenti, o in ordine casuale:"
+
+# @ oita
+#: functions.php:671
+msgid "Latest"
+msgstr "Le più recenti"
+
+# @ oita
+#: functions.php:672
+msgid "Random"
+msgstr "Casuali"
+
+# @ oita
+#: functions.php:691
+msgid "Oita About"
+msgstr ""
+
+# @ oita
+#: functions.php:735
+msgid "Image URL:"
+msgstr "URL immagine:"
+
+# @ oita
+#: functions.php:740
+msgid "Image Width (only value, no px):"
+msgstr "Larghezza Immagine (solo il valore numerico):"
+
+# @ oita
+#: functions.php:745
+msgid "Image Height (only value, no px):"
+msgstr "Altezza immagine (solo il valore numerico):"
+
+# @ oita
+#: functions.php:750
+msgid "About Intro Text:"
+msgstr ""
+
+# @ oita
+#: functions.php:755
+msgid "About Text:"
+msgstr ""
+
+# @ oita
+#: functions.php:774
+msgid "Oita Featured Video"
+msgstr ""
+
+# @ oita
+#: functions.php:809
+msgid "Video embed code:"
+msgstr ""
+
+# @ oita
+#: functions.php:829
+msgid "Oita Social Links"
+msgstr ""
+
+# @ oita
+#: functions.php:1121
+msgid "Twitter URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1126
+msgid "Facebook URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1131
+msgid "Google+ URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1136
+msgid "App.net URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1141
+msgid "Flickr URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1146
+msgid "Instagram URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1151
+msgid "Picasa URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1156
+msgid "500px URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1161
+msgid "YouTube URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1166
+msgid "Vimeo URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1171
+msgid "Dribbble URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1176
+msgid "Ffffound URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1181
+msgid "Pinterest URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1186
+msgid "Behance Network URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1191
+msgid "deviantART URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1196
+msgid "Squidoo URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1201
+msgid "Slideshare URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1206
+msgid "Last.fm URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1211
+msgid "Grooveshark URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1216
+msgid "Soundcloud URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1221
+msgid "Foursquare URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1226
+msgid "GitHub URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1231
+msgid "Linkedin URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1236
+msgid "Xing URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1241
+msgid "WordPress URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1246
+msgid "Tumblr URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1251
+msgid "RSS-Feed URL:"
+msgstr ""
+
+# @ oita
+#: functions.php:1256
+msgid "RSS for Comments URL:"
+msgstr "URL per l'RSS dei Commenti:"
+
+# @ oita
+#: functions.php:1261
+msgid "Open all links in a new browser tab"
+msgstr "Apri tutti i link in un nuovo tab del browser"
+
+# @ oita
+#: header.php:38
+msgid "Menu"
+msgstr ""
+
+# @ oita
+#: header.php:39
+msgid "Sidebar"
+msgstr "Sidebar"
+
+# @ oita
+#: image.php:57
+msgid "Previous Image"
+msgstr "Immagine Precedente"
+
+# @ oita
+#: image.php:58
+msgid "Next Image"
+msgstr "Immagine Successiva"
+
+# @ oita
+#: inc/theme-options.php:62 inc/theme-options.php:63
+msgid "Theme Options"
+msgstr "Opzioni del Tema"
+
+# @ oita
+#: inc/theme-options.php:112
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Opzioni del Tema"
+
+# @ oita
+#: inc/theme-options.php:123
+msgid "Custom Colors"
+msgstr "Colori Personalizzati"
+
+# @ oita
+#: inc/theme-options.php:124 inc/theme-options.php:126
+msgid "Link Color"
+msgstr "Colore Link"
+
+# @ oita
+#: inc/theme-options.php:130
+#, php-format
+msgid ""
+"Choose your custom link color, the default color is: %s. Do not forget to "
+"include the # before the color value."
+msgstr ""
+"Scegli il tuo colore personalizzato per i link, il colore di default è: %s. "
+"Non dimenticare di includere # prima del valore numerico del colore."
+
+# @ oita
+#: inc/theme-options.php:135 inc/theme-options.php:137
+msgid "Additional Font Color"
+msgstr "Colore per Font Addizionale"
+
+# @ oita
+#: inc/theme-options.php:141
+#, php-format
+msgid "Choose your custom additional font color, the default color is: %s."
+msgstr ""
+"Scegli il tuo colore per il font addizionale, il colore di default è: %s."
+
+# @ oita
+#: inc/theme-options.php:146 inc/theme-options.php:148
+msgid "Sidebar Background Color"
+msgstr "Colore di sfondo della Sidebar"
+
+# @ oita
+#: inc/theme-options.php:152
+#, php-format
+msgid "Choose your custom sidebar background color, the default color is: %s."
+msgstr ""
+"Scegli il tuo colore di sfondo personalizzato per le sidebar, il colore di "
+"default é: %s."
+
+# @ oita
+#: inc/theme-options.php:157 inc/theme-options.php:159
+msgid "Main Background Color"
+msgstr "Colore dello Sfondo Principale"
+
+# @ oita
+#: inc/theme-options.php:163
+#, php-format
+msgid "Choose your custom main background color, the default color is: %s."
+msgstr ""
+"Scegli il tuo colore di sfondo personalizzato per l'area principale, il "
+"colore di default è: %s."
+
+# @ oita
+#: inc/theme-options.php:170
+msgid "Logo, Post Excerpts & Custom Texts"
+msgstr "Logo, Estratto dei Post e Testo Personalizzato"
+
+# @ oita
+#: inc/theme-options.php:171
+msgid "Custom Logo"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:173
+msgid "Custom Logo image"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:175
+msgid "Upload your own logo image using the "
+msgstr "Carica l'immagine del tuo logo utilizzando"
+
+# @ oita
+#: inc/theme-options.php:175 inc/theme-options.php:226
+msgid "WordPress Media Uploader"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:175
+msgid ". Then copy your logo image file URL and insert the URL here."
+msgstr ". Quindi copia la URL del file caricato e incollala qui."
+
+# @ oita
+#: inc/theme-options.php:180 inc/theme-options.php:182
+msgid "Post Excerpts"
+msgstr "Estratti dei Post"
+
+# @ oita
+#: inc/theme-options.php:184
+msgid ""
+"Check this box to show automatic post excerpts. With this option you will "
+"not need to add the more tag in posts."
+msgstr ""
+"Seleziona questa casella per mostrare automaticamente gli estratti dai post. "
+"Con questa opzione non c'è bisogno che tu aggiunga il tag <more> nei post."
+
+# @ oita
+#: inc/theme-options.php:189
+msgid "Custom Footer Text"
+msgstr "Testo Personalizzato nel Footer"
+
+# @ oita
+#: inc/theme-options.php:191
+msgid "Custom Footer text"
+msgstr "Testo Personalizzato nel Footer"
+
+# @ oita
+#: inc/theme-options.php:193
+msgid "Customize the footer credit text (Standard HTML is allowed)."
+msgstr ""
+"Personalizza i credits nel footer (È consentito l'uso di HTML standard)."
+
+# @ oita
+#: inc/theme-options.php:198 inc/theme-options.php:200
+msgid "Custom Author Links"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:202
+msgid ""
+"Add custom \"Find me on\" links to your author bio on single posts (Standard "
+"HTML is allowed)."
+msgstr ""
+"Aggiungi un link personalizzato \"Trovami su\" nella tua biografia autore o "
+"nei post singoli (È consentito l'uso di HTML standard)."
+
+# @ oita
+#: inc/theme-options.php:211
+msgid "Favicon and Apple Touch Icon"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:213 inc/theme-options.php:215
+msgid "Custom Favicon"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:217
+msgid ""
+"Create a <strong>16x16px</strong> image and generate a .ico favicon using a "
+"favicon online generator. Now upload your favicon to your themes folder (via "
+"FTP) and enter your Favicon URL here (the URL path should be similar to: "
+"yourdomain.com/wp-content/themes/oita/favicon.ico)."
+msgstr ""
+"Crea una immagine <strong>16x16px</strong> e genera una favicon in formato ."
+"ico utilizzando un generatore online. Quindi carica (via FTP) il tuo file "
+"nella cartella principale del tema ed inseriscine qui la URL. (La URL "
+"rispecchierà un percorso del tipo: yourdomain.com/wp-content/themes/oita/"
+"favicon.ico)."
+
+# @ oita
+#: inc/theme-options.php:222 inc/theme-options.php:224
+msgid "Custom Apple Touch Icon"
+msgstr ""
+
+# @ oita
+#: inc/theme-options.php:226
+msgid ""
+"Create a <strong>128x128px png</strong> image for your webclip icon. Upload "
+"your image using the "
+msgstr ""
+"Crea un'immagine in formato PNG grande <strong>128x128px</strong> per "
+"utilizzarla come icona webclip. Carica il tuo file utilizzando "
+
+# @ oita
+#: inc/theme-options.php:226
+msgid ". Now copy the image file URL and insert the URL here."
+msgstr "Ora copia la URL completa del file ed incollala qui."
+
+# @ oita
+#: inc/theme-options.php:235
+msgid "Share Buttons"
+msgstr "Bottoni per la Condivisione"
+
+# @ oita
+#: inc/theme-options.php:237 inc/theme-options.php:239
+msgid "Share buttons on posts"
+msgstr "Bottoni per la condivisione sugli articoli"
+
+# @ oita
+#: inc/theme-options.php:241
+msgid ""
+"Check this box to show share buttons (Twitter, Facebook, Google+, Pinterest) "
+"on your blogs front page and on single posts."
+msgstr ""
+"Spunta questa voce per mostrare i pulsanti di condivisione (Twitter, "
+"Facebook, Google+, Pinterest) per ogni post singolo e per la pagina "
+"principale del blog."
+
+# @ oita
+#: inc/theme-options.php:246 inc/theme-options.php:248
+msgid "Share buttons on single posts only"
+msgstr "Bottoni per la condivisione soltanto sui post singoli"
+
+# @ oita
+#: inc/theme-options.php:250
+msgid ""
+"Check this box to show share buttons <strong>only</strong> on single posts "
+"(below the post content)."
+msgstr ""
+"Spunta questa voce per mostrare i pulsanti di condivisione <strong>solo</"
+"strong> il post singolo (posizionandoli in calce al suo contenuto)."
+
+# @ oita
+#: inc/theme-options.php:255 inc/theme-options.php:257
+msgid "Share buttons on pages"
+msgstr "Bottoni per la condivisione sulle Pagine"
+
+# @ oita
+#: inc/theme-options.php:259
+msgid "Check this box to show share buttons on pages."
+msgstr ""
+"Spunta questa voce per mostrare i pulsanti di condivisione sulle Pagine."
+
+# @ oita
+#: inc/theme-options.php:268
+msgid "Custom CSS"
+msgstr "CSS Personalizzato"
+
+# @ oita
+#: inc/theme-options.php:270 inc/theme-options.php:272
+msgid "Include Custom CSS"
+msgstr "Includi CSS Personalizzato"
+
+# @ oita
+#: inc/theme-options.php:274
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr ""
+"Includi gli stili del tuo CSS personalizzato, utilizza !important per "
+"sovrascrivere gli stili esistenti."
+
+# @ oita
+#: page-templates/page-archive.php:21
+msgid "Filter by Tags:"
+msgstr "Filtra per Tag:"
+
+# @ oita
+#: page-templates/page-archive.php:26
+msgid "The Latest 50 Posts:"
+msgstr "Gli ultimi 50 articoli:"
+
+# @ oita
+#: page-templates/page-archive.php:31
+msgid "The Monthly Archive:"
+msgstr "Archivio (per Mese): "
+
+# @ oita
+#: search.php:16
+#, php-format
+msgid "Search Results for <strong>&lsquo;%s&rsquo;</strong>"
+msgstr "Risultato della ricerca per: <strong>&lsquo;%s&rsquo;</strong>"
+
+# @ oita
+#: search.php:37
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Spiacente, non ho trovato nulla che rispondesse al tuo criterio di ricerca. "
+"Per favore prova di nuovo con altre parole chiave."
+
+# @ oita
+#: searchform.php:10
+msgid "Search..."
+msgstr "Cerca …"
+
+# @ oita
+#: searchform.php:11
+msgid "Search"
+msgstr "Cerca"
+
+# @ oita
+#: share.php:10
+msgid "Share this"
+msgstr "Condividi l'articolo"
+
+# @ oita
+#: share.php:13
+msgid "Tweet"
+msgstr ""
+
+# @ oita
+#: single.php:18
+msgid "Next Post"
+msgstr "Articolo Successivo"
+
+# @ oita
+#: single.php:19
+msgid "Previous Post"
+msgstr "Articolo Precedente"

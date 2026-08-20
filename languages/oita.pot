@@ -1,0 +1,960 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oita\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 16:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2"
+
+#: functions.php:297
+#, php-format
+msgid " %s "
+msgstr ""
+
+#: comments.php:51
+msgid " &larr;  Older Comments"
+msgstr ""
+
+#. 1: date, 2: time
+#: functions.php:301
+#, php-format
+msgid "%1$s @ %2$s"
+msgstr ""
+
+#: inc/theme-options.php:111
+#, php-format
+msgid "%s Theme Options"
+msgstr ""
+
+#: inc/theme-options.php:225
+msgid ". Now copy the image file URL and insert the URL here."
+msgstr ""
+
+#: inc/theme-options.php:174
+msgid ". Then copy your logo image file URL and insert the URL here."
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:1238
+msgid "500px URL:"
+msgstr ""
+
+#: content-single.php:22 content.php:26
+#, php-format
+msgid "<a href=\"%1$s\" title=\"%2$s\">%3$s</a>, "
+msgstr ""
+
+#: comments.php:67
+msgid "<h3 id=\"reply-title\">Leave a Comment</h3>"
+msgstr ""
+
+#: comments.php:68
+msgid ""
+"<p class=\"comment-note\">Required fields are marked <span "
+"class=\"required\">*</span>.</p>"
+msgstr ""
+
+#: content-gallery.php:36 content-status.php:36 content.php:53
+#: content-aside.php:36 content-video.php:36 content-quote.php:36
+#: content-link.php:36 content-image.php:36
+msgid "<span class=\"comment-count\">%</span> Comments &rarr;"
+msgstr ""
+
+#: content-gallery.php:36 content-status.php:36 content.php:53
+#: content-aside.php:36 content-video.php:36 content-quote.php:36
+#: content-link.php:36 content-image.php:36
+msgid "<span class=\"comment-count\">1</span> Comment &rarr;"
+msgstr ""
+
+#: functions.php:325
+msgid "<span>Pingback:</span>"
+msgstr ""
+
+#: functions.php:830
+msgid "About Intro Text:"
+msgstr ""
+
+#: functions.php:835
+msgid "About Text:"
+msgstr ""
+
+#: functions.php:770
+msgid "About widget with picture and intro text"
+msgstr ""
+
+#: inc/theme-options.php:201
+msgid ""
+"Add custom \"Find me on\" links to your author bio on single posts (Standard "
+"HTML is allowed)."
+msgstr ""
+
+#: inc/theme-options.php:134 inc/theme-options.php:136
+msgid "Additional Font Color"
+msgstr ""
+
+#: content-single.php:24 content.php:28
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: archive.php:26
+#, php-format
+msgid "All Posts by <strong>%s</strong>"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: functions.php:1218
+msgid "App.net URL:"
+msgstr ""
+
+#. Name of the template
+msgid "Archive Page Template"
+msgstr ""
+
+#: archive.php:39
+msgid "Archives"
+msgstr ""
+
+#: content.php:19
+msgid "Article"
+msgstr ""
+
+#: content-aside.php:18
+msgid "Aside"
+msgstr ""
+
+#: functions.php:1268
+msgid "Behance Network URL:"
+msgstr ""
+
+#: functions.php:75
+msgid "black"
+msgstr ""
+
+#: inc/theme-options.php:183
+msgid ""
+"Check this box to show automatic post excerpts. With this option you will "
+"not need to add the more tag in posts."
+msgstr ""
+
+#: inc/theme-options.php:240
+msgid ""
+"Check this box to show share buttons (Twitter, Facebook, Google+, Pinterest) "
+"on your blogs front page and on single posts."
+msgstr ""
+
+#: inc/theme-options.php:249
+msgid ""
+"Check this box to show share buttons <strong>only</strong> on single posts "
+"(below the post content)."
+msgstr ""
+
+#: inc/theme-options.php:258
+msgid "Check this box to show share buttons on pages."
+msgstr ""
+
+#: functions.php:741
+msgid "Choose user or group:"
+msgstr ""
+
+#: inc/theme-options.php:140
+#, php-format
+msgid "Choose your custom additional font color, the default color is: %s."
+msgstr ""
+
+#: inc/theme-options.php:129
+#, php-format
+msgid ""
+"Choose your custom link color, the default color is: %s. Do not forget to "
+"include the # before the color value."
+msgstr ""
+
+#: inc/theme-options.php:162
+#, php-format
+msgid "Choose your custom main background color, the default color is: %s."
+msgstr ""
+
+#: inc/theme-options.php:151
+#, php-format
+msgid "Choose your custom sidebar background color, the default color is: %s."
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/theme-options.php:225
+msgid ""
+"Create a <strong>128x128px png</strong> image for your webclip icon. Upload "
+"your image using the "
+msgstr ""
+
+#: inc/theme-options.php:216
+msgid ""
+"Create a <strong>16x16px</strong> image and generate a .ico favicon using a "
+"favicon online generator. Now upload your favicon to your themes folder (via "
+"FTP) and enter your Favicon URL here (the URL path should be similar to: "
+"yourdomain.com/wp-content/themes/oita/favicon.ico)."
+msgstr ""
+
+#. If there are characters in your language that are not supported by Crimson Text, translate this to 'off'. Do not translate into your own language.
+#: functions.php:142
+msgctxt "Crimson Text font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/theme-options.php:221 inc/theme-options.php:223
+msgid "Custom Apple Touch Icon"
+msgstr ""
+
+#: inc/theme-options.php:197 inc/theme-options.php:199
+msgid "Custom Author Links"
+msgstr ""
+
+#: inc/theme-options.php:122
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/theme-options.php:267
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/theme-options.php:212 inc/theme-options.php:214
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/theme-options.php:188
+msgid "Custom Footer Text"
+msgstr ""
+
+#: inc/theme-options.php:190
+msgid "Custom Footer text"
+msgstr ""
+
+#: inc/theme-options.php:170
+msgid "Custom Logo"
+msgstr ""
+
+#: inc/theme-options.php:172
+msgid "Custom Logo image"
+msgstr ""
+
+#: inc/theme-options.php:192
+msgid "Customize the footer credit text (Standard HTML is allowed)."
+msgstr ""
+
+#: archive.php:30
+#, php-format
+msgid "Daily Archives of <strong>%s</strong>"
+msgstr ""
+
+#: functions.php:1273
+msgid "deviantART URL:"
+msgstr ""
+
+#: functions.php:1253
+msgid "Dribbble URL:"
+msgstr ""
+
+#: functions.php:305 functions.php:326 content-gallery.php:41
+#: content-single.php:74 content-status.php:41 content.php:58
+#: content-aside.php:41 content-video.php:41 content-quote.php:41
+#: content-link.php:41 content-image.php:41
+msgid "Edit &rarr;"
+msgstr ""
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: functions.php:1208
+msgid "Facebook URL:"
+msgstr ""
+
+#: inc/theme-options.php:210
+msgid "Favicon and Apple Touch Icon"
+msgstr ""
+
+#: content.php:17
+msgid "Featured"
+msgstr ""
+
+#: content-gallery.php:16
+msgid "Featured Gallery"
+msgstr ""
+
+#: content-image.php:16
+msgid "Featured Image"
+msgstr ""
+
+#: content-link.php:16
+msgid "Featured Link"
+msgstr ""
+
+#: content-aside.php:16
+msgid "Featured Note"
+msgstr ""
+
+#: content-quote.php:16
+msgid "Featured Quote"
+msgstr ""
+
+#: content-status.php:16
+msgid "Featured Status"
+msgstr ""
+
+#: content-video.php:16
+msgid "Featured Video"
+msgstr ""
+
+#: functions.php:1258
+msgid "Ffffound URL:"
+msgstr ""
+
+#: content-gallery.php:39 content-single.php:68 content-status.php:39
+#: content.php:56 content-aside.php:39 content-video.php:39
+#: content-quote.php:39 content-link.php:39 content-image.php:39
+msgid "Filed under: "
+msgstr ""
+
+#: page-templates/page-archive.php:21
+msgid "Filter by Tags:"
+msgstr ""
+
+#: content-single.php:55
+msgid "Find me on: "
+msgstr ""
+
+#: functions.php:727
+msgid "Flickr ID:"
+msgstr ""
+
+#: functions.php:1223
+msgid "Flickr URL:"
+msgstr ""
+
+#: functions.php:114
+msgid "Footer Navigation (no sub menus supported)"
+msgstr ""
+
+#: functions.php:1303
+msgid "Foursquare URL:"
+msgstr ""
+
+#. Name of the template
+msgid "Fullwidth Page Template"
+msgstr ""
+
+#: content-gallery.php:18
+msgid "Gallery"
+msgstr ""
+
+#: functions.php:1308
+msgid "GitHub URL:"
+msgstr ""
+
+#: functions.php:1213
+msgid "Google+ URL:"
+msgstr ""
+
+#: functions.php:85
+msgid "grey"
+msgstr ""
+
+#: functions.php:1293
+msgid "Grooveshark URL:"
+msgstr ""
+
+#: functions.php:744
+msgid "Group"
+msgstr ""
+
+#: colophon.php:32
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/en/themes/oita/"
+msgstr ""
+
+#: content-image.php:18
+msgid "Image"
+msgstr ""
+
+#: functions.php:825
+msgid "Image Height (only value, no px):"
+msgstr ""
+
+#: functions.php:815
+msgid "Image URL:"
+msgstr ""
+
+#: functions.php:820
+msgid "Image Width (only value, no px):"
+msgstr ""
+
+#: inc/theme-options.php:269 inc/theme-options.php:271
+msgid "Include Custom CSS"
+msgstr ""
+
+#: inc/theme-options.php:273
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr ""
+
+#: functions.php:1228
+msgid "Instagram URL:"
+msgstr ""
+
+#: archive.php:82
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:60
+msgid "L"
+msgstr ""
+
+#: functions.php:59
+msgid "large"
+msgstr ""
+
+#: functions.php:65
+msgid "larger"
+msgstr ""
+
+#: functions.php:1288
+msgid "Last.fm URL:"
+msgstr ""
+
+#: functions.php:750
+msgid "Latest"
+msgstr ""
+
+#: content-gallery.php:36 content-status.php:36 content.php:53
+#: content-aside.php:36 content-video.php:36 content-quote.php:36
+#: content-link.php:36 content-image.php:36
+msgid "Leave a Comment &rarr;"
+msgstr ""
+
+#: content-link.php:18
+msgid "Link"
+msgstr ""
+
+#: inc/theme-options.php:123 inc/theme-options.php:125
+msgid "Link Color"
+msgstr ""
+
+#: functions.php:910
+msgid "Link to your social profile sites"
+msgstr ""
+
+#: functions.php:1313
+msgid "Linkedin URL:"
+msgstr ""
+
+#: inc/theme-options.php:169
+msgid "Logo, Post Excerpts & Custom Texts"
+msgstr ""
+
+#: functions.php:54
+msgid "M"
+msgstr ""
+
+#: inc/theme-options.php:156 inc/theme-options.php:158
+msgid "Main Background Color"
+msgstr ""
+
+#: header.php:37
+msgid "Menu"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Monthly Archives of <strong>%s</strong>"
+msgstr ""
+
+#: comments.php:52
+msgid "Newer Comments  &rarr; "
+msgstr ""
+
+#: functions.php:393
+msgid "Newer entries"
+msgstr ""
+
+#: image.php:58
+msgid "Next Image"
+msgstr ""
+
+#: single.php:18
+msgid "Next Post"
+msgstr ""
+
+#: 404.php:14
+msgid "Not Found"
+msgstr ""
+
+#: archive.php:79 search.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: comments.php:70
+msgctxt "noun"
+msgid "Message <span class=\"required\">*</span>"
+msgstr ""
+
+#: functions.php:732
+msgid "Number of photos:"
+msgstr ""
+
+#. Name of the theme
+msgid "Oita"
+msgstr ""
+
+#: functions.php:768
+msgid "Oita About"
+msgstr ""
+
+#: functions.php:852
+msgid "Oita Featured Video"
+msgstr ""
+
+#: functions.php:683
+msgid "Oita Flickr"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Oita is a minimal, responsive theme with beautiful typography styling "
+"options. With its modern, off canvas layout Oita offers lots of space to "
+"feature your content."
+msgstr ""
+
+#: functions.php:908
+msgid "Oita Social Links"
+msgstr ""
+
+#: functions.php:392
+msgid "Older entries"
+msgstr ""
+
+#: functions.php:1343
+msgid "Open all links in a new browser tab"
+msgstr ""
+
+#: content-single.php:43 content.php:46
+msgid "Pages:"
+msgstr ""
+
+#: content-gallery.php:24 content-single.php:30 content-status.php:24
+#: content.php:33 content-aside.php:24 content-video.php:24
+#: content-quote.php:24 content-link.php:24 content-image.php:24
+msgid "Permalink"
+msgstr ""
+
+#: content-gallery.php:20 content-status.php:20 content.php:21
+#: content-aside.php:20 content-video.php:20 content-quote.php:20
+#: content-link.php:20 content-image.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: functions.php:1233
+msgid "Picasa URL:"
+msgstr ""
+
+#: functions.php:1263
+msgid "Pinterest URL:"
+msgstr ""
+
+#: inc/theme-options.php:179 inc/theme-options.php:181
+msgid "Post Excerpts"
+msgstr ""
+
+#: archive.php:19
+#, php-format
+msgid "Posts in Category <strong>&lsquo;%s&rsquo;</strong>"
+msgstr ""
+
+#: archive.php:22
+#, php-format
+msgid "Posts Tagged <strong>&lsquo;%s&rsquo;</strong>"
+msgstr ""
+
+#: colophon.php:32
+msgid "Powered by"
+msgstr ""
+
+#: image.php:57
+msgid "Previous Image"
+msgstr ""
+
+#: single.php:19
+msgid "Previous Post"
+msgstr ""
+
+#: functions.php:113
+msgid "Primary Navigation"
+msgstr ""
+
+#: content-quote.php:18
+msgid "Quote"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Raleway, translate this to 'off'. Do not translate into your own language.
+#: functions.php:147
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:751
+msgid "Random"
+msgstr ""
+
+#: functions.php:241 content-gallery.php:30 content-single.php:42
+#: content-status.php:30 content.php:45 content-aside.php:30
+#: content-video.php:30 content-quote.php:30 content-link.php:30
+#: content-image.php:30
+msgid "Read more"
+msgstr ""
+
+#: functions.php:53
+msgid "regular"
+msgstr ""
+
+#: functions.php:312
+msgid "Reply"
+msgstr ""
+
+#: functions.php:1338
+msgid "RSS for Comments URL:"
+msgstr ""
+
+#: functions.php:1333
+msgid "RSS-Feed URL:"
+msgstr ""
+
+#: functions.php:48
+msgid "S"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for <strong>&lsquo;%s&rsquo;</strong>"
+msgstr ""
+
+#: searchform.php:10
+msgid "Search..."
+msgstr ""
+
+#: colophon.php:32
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: comments.php:71
+msgid "Send Comment"
+msgstr ""
+
+#: inc/theme-options.php:234
+msgid "Share Buttons"
+msgstr ""
+
+#: inc/theme-options.php:254 inc/theme-options.php:256
+msgid "Share buttons on pages"
+msgstr ""
+
+#: inc/theme-options.php:236 inc/theme-options.php:238
+msgid "Share buttons on posts"
+msgstr ""
+
+#: inc/theme-options.php:245 inc/theme-options.php:247
+msgid "Share buttons on single posts only"
+msgstr ""
+
+#: share.php:10
+msgid "Share this"
+msgstr ""
+
+#: functions.php:854
+msgid "Show a featured video"
+msgstr ""
+
+#: functions.php:748
+msgid "Show latest or random pictures:"
+msgstr ""
+
+#: functions.php:685
+msgid "Show your Flickr preview images"
+msgstr ""
+
+#: header.php:38
+msgid "Sidebar"
+msgstr ""
+
+#: inc/theme-options.php:145 inc/theme-options.php:147
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: functions.php:369
+msgid "Sidebar Left"
+msgstr ""
+
+#: functions.php:339
+msgid "Sidebar Right, Single Column"
+msgstr ""
+
+#: functions.php:349
+msgid "Sidebar Right, Two-Columns Left"
+msgstr ""
+
+#: functions.php:359
+msgid "Sidebar Right, Two-Columns Right"
+msgstr ""
+
+#: functions.php:1283
+msgid "Slideshare URL:"
+msgstr ""
+
+#: functions.php:47
+msgid "small"
+msgstr ""
+
+#: search.php:37
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: functions.php:1298
+msgid "Soundcloud URL:"
+msgstr ""
+
+#: functions.php:1278
+msgid "Squidoo URL:"
+msgstr ""
+
+#: content-status.php:18
+msgid "Status"
+msgstr ""
+
+#: content-single.php:72
+msgid "Tagged:"
+msgstr ""
+
+#: page-templates/page-archive.php:26
+msgid "The Latest 50 Posts:"
+msgstr ""
+
+#: page-templates/page-archive.php:31
+msgid "The Monthly Archive:"
+msgstr ""
+
+#. Name of page
+#: inc/theme-options.php:62 inc/theme-options.php:63
+msgid "Theme Options"
+msgstr ""
+
+#: colophon.php:33
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: functions.php:722 functions.php:810 functions.php:885 functions.php:1198
+msgid "Title:"
+msgstr ""
+
+#: functions.php:1328
+msgid "Tumblr URL:"
+msgstr ""
+
+#: share.php:13
+msgid "Tweet"
+msgstr ""
+
+#: functions.php:1203
+msgid "Twitter URL:"
+msgstr ""
+
+#: inc/theme-options.php:174
+msgid "Upload your own logo image using the "
+msgstr ""
+
+#: functions.php:743
+msgid "User"
+msgstr ""
+
+#: content-video.php:18
+msgid "Video"
+msgstr ""
+
+#: functions.php:890
+msgid "Video embed code:"
+msgstr ""
+
+#: functions.php:1248
+msgid "Vimeo URL:"
+msgstr ""
+
+#: functions.php:80
+msgid "white"
+msgstr ""
+
+#: functions.php:371
+msgid "Widgets will appear in the left sidebar below the main navigation."
+msgstr ""
+
+#: functions.php:351
+msgid ""
+"Widgets will appear in the right sidebar in the left column of the two-"
+"column widget area."
+msgstr ""
+
+#: functions.php:361
+msgid ""
+"Widgets will appear in the right sidebar in the right column of the two-"
+"column widget area."
+msgstr ""
+
+#: functions.php:341
+msgid "Widgets will appear in the right sidebar."
+msgstr ""
+
+#: colophon.php:32
+msgid "WordPress"
+msgstr ""
+
+#: inc/theme-options.php:174 inc/theme-options.php:225
+msgid "WordPress Media Uploader"
+msgstr ""
+
+#: functions.php:1323
+msgid "WordPress URL:"
+msgstr ""
+
+#: comments.php:33
+msgid "Write a comment"
+msgstr ""
+
+#: functions.php:1318
+msgid "Xing URL:"
+msgstr ""
+
+#: functions.php:66
+msgid "XL"
+msgstr ""
+
+#: archive.php:36
+#, php-format
+msgid "Yearly Archives of <strong>%s</strong>"
+msgstr ""
+
+#: functions.php:90
+msgid "yellow"
+msgstr ""
+
+#: functions.php:310
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:1243
+msgid "YouTube URL:"
+msgstr ""
+
+msgid ""
+"<strong>%s</strong> supports automatic updates using WordPress' update "
+"mechanism. To use this feature you need to activate the theme using your "
+"Product Key, which can be found in your Elmastudio account dashboard. The "
+"theme stays fully functional without activation and still can be updated "
+"manually. %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+
+msgid " Activation"
+msgstr ""
+
+msgid " Product Key Activation"
+msgstr ""
+
+msgid "Product Key Activation"
+msgstr ""
+
+msgid "Product Key Deactivation"
+msgstr ""
+
+msgid "Product Key"
+msgstr ""
+
+msgid "Product ID"
+msgstr ""
+
+msgid "Product Key Status"
+msgstr ""
+
+msgid "Deactivate Product Key"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Activated"
+msgstr ""
+
+msgid "Deactivated"
+msgstr ""
+
+msgid ""
+"Connection failed to the Elmastudio server. Try again later. There may be a "
+"problem on your server preventing outgoing requests."
+msgstr ""
+
+msgid "Product Key deactivated."
+msgstr ""
+
+msgid ""
+"The Product Key could not be deactivated. Use the Product Key Deactivation "
+"tab to manually deactivate the Product Key before activating a new Product "
+"Key."
+msgstr ""
+
+msgid "Deactivates an Product Key so it can be used on another blog."
+msgstr ""
+
+msgid "%s activated."
+msgstr ""

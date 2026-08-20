@@ -1,0 +1,280 @@
+/*
+CSS for older Internet Explorer versions (previous to IE9).
+*/
+.entry-content, 
+.entry-summary,
+.comments-area,
+.single-post .author-info {
+	max-width: 800px;
+	margin: 0 auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+.entry-meta {
+	padding-left: 0;
+	padding-right: 0;
+}
+.entry-header {
+	padding-top: 0;
+}
+/* Post Headers */
+.entry-header h1.entry-title,
+.entry-header h2.entry-title {
+	padding: 0 0 10px;
+}
+/* Posts */
+img.wp-post-image {
+	max-width: 100%;
+	margin: 5px 20px 5px 0;
+}
+.entry-content .wide-content:last-child {
+	padding-bottom: 0;
+}
+
+/* Post Details */
+.entry-details {
+	padding: 0 0 80px 0;
+}
+/* Post Meta */
+.entry-meta {
+	margin-top: 90px;
+	padding-bottom: 60px;
+}
+.entry-meta ul li.entry-cats,
+.entry-meta ul li.entry-edit {
+	padding-bottom: 0;
+}
+.single-post .entry-meta ul li.entry-cats {
+	padding-bottom: 20px;
+}
+.entry-meta .share-links-wrap {
+	border:1px solid #ddd;
+}
+
+/* Post Formats */
+.format-image .entry-header h2.entry-title,
+.format-image .entry-header h1.entry-title,
+.format-gallery .entry-header h2.entry-title,
+.format-gallery .entry-header h1.entry-title,
+.format-quote .entry-header h2.entry-title,
+.format-quote .entry-header h1.entry-title,
+.format-aside .entry-header h2.entry-title,
+.format-aside .entry-header h1.entry-title,
+.format-status .entry-header h2.entry-title,
+.format-status .entry-header h1.entry-title,
+.format-video .entry-header h2.entry-title,
+.format-video .entry-header h1.entry-title,
+.format-link .entry-header h2.entry-title,
+.format-link .entry-header h1.entry-title {
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 40px;
+}
+.format-image .entry-content,
+.format-gallery .entry-content,
+.format-quote .entry-content {
+	max-width: 100%;
+}
+.format-gallery .entry-meta {
+	margin-top: 45px;
+}
+.gallery .gallery-item {
+	max-width:30%;
+	float:left;
+	margin-right:3%;
+	margin-bottom:15px;
+}
+/* Single Posts */
+.single .post,
+.type-attachment {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+/* Comments */
+#comments h3.comments-title {
+	padding-top: 0;
+}
+#comments #respond {
+	margin-bottom: 80px;
+}
+#comments .commentlist #respond {
+	margin-bottom: 0;
+}
+#site-content ol.commentlist {
+	padding-bottom: 55px;
+}
+#commentform p.comment-form-author, 
+#commentform p.comment-form-email,
+#commentform p.comment-form-url {
+	float:left;
+	width: 31.3%;
+	margin-right: 2%;
+} 
+#commentform textarea#comment {
+	width: 94%;
+}
+input#submit {
+	width: 98.5%;
+}
+/* Fullwidth Page Template */
+.template-fullwidth .entry-header,
+.template-fullwidth .entry-content {
+	max-width: 100%;
+}
+/* Sidebar + Widgets */
+.sidebar-right .widget-area-wrap {
+	max-width: 880px;
+	margin: 0 auto;
+	padding: 100px 0 0;
+}
+.sidebar-right .site-info {
+	padding-bottom: 100px;
+}
+.widget {
+	padding: 0 0 90px;
+}
+.widget_oita_about p.about-intro {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+.widget-area .textwidget,
+.widget_oita_about p.about-text {
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+/* Sidebar + Widgets */
+#sidebar-right-twocolleft {
+	width: 48%;
+	float: left;
+}
+#sidebar-right-twocolright {
+	width: 48%;
+	float: right;
+}
+/* Sidebar Right Nav */
+.sidebar-right .sidebar-nav {
+	margin: 0;
+	padding: 15px 0;
+}
+.sidebar-right .sidebar-nav li {
+	display: inline;
+	padding: 12px 0;
+}
+.sidebar-right .sidebar-nav li a {
+	margin: 0 12px;
+}
+.sidebar-right .sidebar-nav li:after {
+	content: " | ";
+}
+.sidebar-right .sidebar-nav li:last-child:after {
+	content: "";
+}
+.sidebar-right .site-info {
+	padding-top: 30px;
+}
+/* Footer */
+.site-info ul.credit li {
+	display: inline;
+	padding-bottom: 0;
+}
+/* Multicolumn Shortcodes */
+.two-columns-one {width: 47.2%;}
+.three-columns-one {width: 29.7%;}
+.three-columns-two {width: 64.4%;}
+.four-columns-one {width: 22.5%;}
+.four-columns-two {width: 45%;}
+.four-columns-three {width: 67.5%;}
+.five-columns-one {width: 17.4%;}
+.five-columns-two {width: 37.8%;}
+.five-columns-three {width: 58.2%;}
+.five-columns-four {width: 78.6%;}
+ .six-columns-one {width: 14%;}
+.six-columns-two {width: 37.8%;}
+.six-columns-three {width: 58.2%;}
+.six-columns-four {width: 78.6%;}
+.six-columns-five {width: 78.6%;}
+.two-columns-one,
+.three-columns-one,
+.three-columns-two {
+	position:relative;
+	float:left;
+	margin-right: 2.5%;
+	padding-right: 2.5%;
+	margin-bottom: 0;
+}
+.four-columns-one,
+.four-columns-two,
+.four-columns-three,
+.five-columns-one,
+.five-columns-two,
+.five-columns-three,
+.five-columns-four,
+.six-columns-one,
+.six-columns-two,
+.six-columns-three,
+.six-columns-four,
+.six-columns-five {
+	position: relative;
+	float: left;
+	margin-right: 1.5%;
+	padding-right: 1.5%;
+	margin-bottom: 0;
+}
+.two-columns-one,
+.three-columns-one,
+.three-columns-two,
+.four-columns-one,
+.four-columns-two,
+.four-columns-three,
+.five-columns-one,
+.five-columns-two,
+.five-columns-three,
+.five-columns-four,
+.six-columns-one,
+.six-columns-two,
+.six-columns-three,
+.six-columns-four,
+.six-columns-five {
+	border-right: 1px solid #ddd;
+}
+.entry-content .two-columns-one p,
+.entry-content .three-columns-one p,
+.entry-content .three-columns-two p {
+	margin: 0 0 20px;
+	padding-bottom: 0;
+}
+.entry-content .four-columns-one p,
+.entry-content .four-columns-two p,
+.entry-content .four-columns-three p,
+.entry-content .five-columns-one p,
+.entry-content .five-columns-two p,
+.entry-content .five-columns-three p,
+.entry-content .five-columns-four p {
+	font-size: 17px;
+	font-size: 1.0625rem;
+	line-height: 1.45;
+	margin: 0 0 20px;
+	padding-bottom: 0;
+}
+.entry-content .six-columns-one p,
+.entry-content .six-columns-two p,
+.entry-content .six-columns-three p,
+.entry-content .six-columns-four p,
+.entry-content .six-columns-five p  {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.35;
+	margin: 0 0 10px;
+	padding-bottom: 0;
+}
+.last {
+	border-right: none !important;
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+}
+.divider {
+	margin-bottom: 25px;
+	padding-top: 25px;
+}

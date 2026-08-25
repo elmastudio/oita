@@ -666,6 +666,7 @@ class oita_flickr extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$id = $instance['id'];
@@ -690,6 +691,7 @@ class oita_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		$title = esc_attr($instance['title']);
 		$id = esc_attr($instance['id']);
 		$number = esc_attr($instance['number']);
@@ -751,6 +753,7 @@ class oita_about extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'aboutintro' => '', 'abouttext' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$imageurl = $instance['imageurl'];
@@ -777,6 +780,7 @@ class oita_about extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'aboutintro' => '', 'abouttext' => '' ) );
 		$title = esc_attr($instance['title']);
 		$imageurl = esc_attr($instance['imageurl']);
 		$imagewidth = esc_attr($instance['imagewidth']);
@@ -835,6 +839,7 @@ class oita_video extends WP_Widget {
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$embedcode = $instance['embedcode'];
@@ -856,6 +861,7 @@ class oita_video extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		$title = esc_attr($instance['title']);
 		$embedcode = esc_attr($instance['embedcode']);
 		?>
@@ -891,6 +897,7 @@ register_widget('oita_video');
 	}
 
 	function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'appnet' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$twitter = $instance['twitter'];
@@ -1140,6 +1147,7 @@ register_widget('oita_video');
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'appnet' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '', 'target' => '' ) );
 		$title = esc_attr($instance['title']);
 		$twitter = esc_attr($instance['twitter']);
 		$facebook = esc_attr($instance['facebook']);
@@ -1327,3 +1335,14 @@ register_widget('oita_video');
 }
 
 register_widget('oita_sociallinks');
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function oita_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'share-pages', 'custom_favicon', 'custom_apple_icon', 'custom_logo', 'link_color', 'extrafont_color', 'sidebarbg_color', 'bg_color', 'show-excerpt', 'custom_footertext', 'custom_authorlinks', 'share-posts', 'share-singleposts', 'custom-css' ), '' );
+	if ( function_exists( 'oita_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) oita_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_oita_theme_options', 'oita_php8_option_defaults' );
+add_filter( 'option_oita_theme_options', 'oita_php8_option_defaults' );

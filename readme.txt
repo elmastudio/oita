@@ -6,6 +6,10 @@ For the detailed theme documentation visit:
 
 Oita Changelog:
 
+Version 1.0.8 (25/08/2026)
+---
+- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
+
 Version 1.0.7 (14/08/2020)
 ---
 - Bugfix: Comments list visibility in WordPress 5.5.
@@ -52,9 +56,3 @@ Version 1.0.1 (June 3rd 2013)
 Version 1.0 (March 11th 2013)
 ---
 - Oita Theme release
-
-Changelog:
-
-Version 1.0.8 (25/08/2026)
------------------------------------------------------------------------------------------------------------------------------
-- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
